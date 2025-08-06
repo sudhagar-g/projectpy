@@ -1,6 +1,6 @@
 # reversing interger
-num = int(input("enter the number :")) #this line get inpyt from user  assume  number as 123456
-rev = 0 
+num = int(input("enter the number :")) #this line get input from  the user just  assume  number is (123456)
+rev = 0                                 # now create variable with value 0  later store value 
 
 while num > 0:                  #loop run until  number come to 0 value
         digits = num % 10         # geting input number last digit  =>  123456 % 10 = 6
