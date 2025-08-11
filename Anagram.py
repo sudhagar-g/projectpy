@@ -1,5 +1,5 @@
-class Anagram                      
-    def __init__(self,text):         
+class Anagram :                        
+    def __init__(self,text):      
         self.text = text
         list1 = list(self.text)
     def is_anagram(self):         
