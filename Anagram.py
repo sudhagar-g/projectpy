@@ -1,9 +1,9 @@
-class Anagram:
-    def __init__(self,text):
+class Anagram                      
+    def __init__(self,text):         
         self.text = text
-
-    def is_anagram(self):
         list1 = list(self.text)
+    def is_anagram(self):         
+        
         length = len(self.text)
         for i in range(length-1):
             for j in range(length -i - 1):
